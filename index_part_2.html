@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Movie Rating App</h1>
+    <h2 id="desc">
+      Enter your movie and rating, and keep track of your list! &#x1F60A;
+    </h2>
+    <form id="movie-form">
+      <label
+        >Movie:
+        <input type="text" id="movie-name" placeholder="Enter movie" />
+      </label>
+      <label
+        >Rating:
+        <input type="text" id="movie-rating" placeholder="Enter rating" />
+      </label>
+      <input id="submit-button" type="submit" value="Submit" />
+    </form>
+    <div class="container"></div>
+    <button>Clear List</button>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    rgba(220, 120, 162, 1),
+    rgba(210, 155, 255, 1)
+  );
+}
+#title {
+  font-family: poppins;
+  font-size: 2em;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  margin-bottom: -0.5em;
+}
+#desc {
+  font-family: poppins;
+  color: white;
+}
+label {
+  font-family: poppins;
+  margin-right: 1em;
+}
+input[type="submit"],
+button {
+  margin-top: 1em;
+  width: 100px;
+  height: 25px;
+  font-size: 1em;
+  border-radius: 1em;
+}
+.submission {
+  font-family: poppins;
+  color: white;
+  border: 2px solid black;
+  margin: 0.5em;
+  padding: 3px;
+}
